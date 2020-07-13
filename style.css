@@ -125,7 +125,7 @@ h3 {
 }
 .slide {
 	height: 100vh;
-	width: 100vw;
+	width: 99vw;
 	margin-bottom: 150px;
 }
 .who-content p {
@@ -181,11 +181,7 @@ h3 {
 	font-size: 36px;
 	font-weight: bold;
 }
-.section-moto-container p {
-	font-size: 20px;
-	font-weight: normal;
-	width: 455px;
-}
+
 .section-moto-container a {
 	text-decoration: none;
 	color: var(--blue-color);
@@ -212,6 +208,18 @@ h3 {
 	z-index: 1;
 	opacity: 0.4;
 }
+.bg-empty-gate {
+	width: 100%;
+	min-width: 45vw;
+	/* height: calc(100% - 150px); */
+	height: 75vh;
+	position: absolute;
+	margin-top: 40px;
+	background-color: #efcec5;
+	z-index: -1;
+	opacity: 0.4;
+}
+
 .moto {
 	background-image: url(imgs/moto.svg);
 }
@@ -220,13 +228,27 @@ h3 {
 	float: right;
 	margin-right: 30%;
 }
+.skif-gate {
+	width: 80%;
+	margin-left: 80px;
+}
 .section-home-container .content {
 	bottom: 100px;
-	width: 40%;
+	width: 60%;
+	left: 0;
 	align-items: flex-start;
 	justify-content: center;
-	margin: 10px;
+
 	padding: 0px 35px 0 70px;
+}
+.gate .content {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 40%;
+}
+.gate {
+	margin: 0;
 }
 
 .section-home-container {
@@ -234,11 +256,11 @@ h3 {
 	height: 100%;
 }
 .section-home-container .img-container {
-	height: 70%;
+	height: 100%;
+	margin-left: 20px;
 }
 .img-container {
 	position: absolute;
-	bottom: 150px;
 	z-index: 4;
 	/* margin-left: 65vh; */
 	background-position: center;
@@ -247,6 +269,14 @@ h3 {
 	width: 100%;
 	height: 60%;
 }
+.gate .img-container {
+	width: 40%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	margin-left: 70px;
+	margin-top: 80px;
+}
 .section-home-container h4 {
 	margin-top: 0px;
 	padding-top: 0px;
@@ -254,6 +284,7 @@ h3 {
 .section-home-container p {
 	font-size: 20px;
 }
+
 .icons-container {
 	align-items: center;
 	margin-bottom: 64px;
