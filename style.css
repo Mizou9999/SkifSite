@@ -222,6 +222,7 @@ h3 {
 
 .moto {
 	background-image: url(imgs/moto.svg);
+	margin-top: 21vh;
 }
 .smart-home {
 	width: 40%;
@@ -285,6 +286,17 @@ h3 {
 	font-size: 20px;
 }
 
+.reality .img-container {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+.reality .img-container .reality-img {
+	height: 100%;
+	width: 51%;
+	padding-left: 10px;
+	margin-right: 440px;
+}
 .icons-container {
 	align-items: center;
 	margin-bottom: 64px;
