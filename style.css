@@ -243,7 +243,7 @@ h3 {
 .smart-home {
 	width: 43%;
 	float: right;
-	margin-right: 30%;
+	margin-right: 36%;
 	margin-top: 100px;
 }
 
@@ -291,6 +291,16 @@ h3 {
 	justify-content: center;
 	padding: 0px 35px 0 70px;
 }
+.smart-home-button {
+	margin-left: -255px;
+}
+.btn-gate {
+	margin-left: 200px;
+}
+.btn-aug-reality {
+	margin-left: -270px;
+}
+
 .gate .content {
 	position: absolute;
 	top: 0;
@@ -380,6 +390,9 @@ h4 {
 }
 .contact-container {
 	padding: 0px 50px;
+	max-width: 64%;
+	margin: 0 auto;
+	margin-bottom: 150px;
 }
 
 .telegram {
@@ -401,6 +414,9 @@ h4 {
 	color: var(--main-color);
 	margin-bottom: 0;
 }
+.form-container h4 {
+	margin-left: 10px;
+}
 
 textarea {
 	resize: none;
@@ -410,6 +426,7 @@ textarea {
 	font-weight: 450;
 	padding: 16px 12px;
 	background-color: #fdfdfd;
+	width: 100%;
 }
 textarea::placeholder {
 	font-size: 17px;
@@ -507,3 +524,119 @@ footer {
 }
 
 /* Media Query */
+@media (max-width: 1770px) {
+	.title-container h1 {
+		font-size: 40px;
+	}
+	.title-container p {
+		font-size: 15px;
+	}
+	h4 {
+		font-size: 28px;
+	}
+}
+
+@media (max-width: 1478px) {
+	.nav-link {
+		margin-left: 20px;
+	}
+	.container-handler,
+	.contact-container {
+		max-width: 70%;
+	}
+	.title-container h1 {
+		font-size: 35px;
+	}
+	.title h3 {
+		font-size: 20px;
+	}
+	.mini-card p {
+		font-size: 16px;
+	}
+	h4 {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 1195px) {
+	.nav-link {
+		margin-left: 20px;
+	}
+	.container-handler,
+	.contact-container {
+		max-width: 78%;
+	}
+	.title-container h1 {
+		font-size: 30px;
+	}
+	.icon-box {
+		margin-right: 5px;
+	}
+}
+@media (max-width: 1076px) {
+	.nav-link {
+		margin-left: 10px;
+	}
+	.title-container h1 {
+		font-size: 28px;
+	}
+	.title-container p {
+		font-size: 18px;
+	}
+	.title h3 {
+		font-size: 18px;
+	}
+}
+@media (max-width: 987px) {
+	.title-container {
+		width: 100%;
+		margin-top: 150px;
+	}
+	.title-container h1 {
+		font-size: 64px;
+	}
+	.title-container p {
+		font-size: 36px;
+	}
+	.bg-blue {
+		position: relative;
+		width: 100vw;
+		height: 100%;
+		margin-top: 130px;
+	}
+	h3 {
+		font-size: 64px;
+	}
+	.contact-container {
+		max-width: 100%;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 150px;
+	}
+	.contact-container .row {
+		flex-direction: column;
+
+		justify-content: center;
+	}
+	.contact-container h4 {
+		font-size: 64px;
+		width: 500px;
+	}
+	.form-container,
+	.contacts {
+		margin: 50px 0 0 50px;
+	}
+	.form-container {
+		padding: 0;
+	}
+	textarea {
+		width: 144%;
+		height: 400px;
+	}
+	.send-btn-text {
+		display: none;
+	}
+	.email {
+		width: 144%;
+	}
+}
